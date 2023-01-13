@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: #271A45;
+}
+
+body{
+  background-color: #D9CDF7;
+}
+
+#product{
+  min-width: 55%;
+}
+
+.wrapper{
+  margin: auto;
+  width: 95%;
+  max-width: 550px;
+  position: relative;
+}
+
+#product  img{
+  width: 100%;
+}
+
+#product svg {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+}
+ 
+#product .exit_icon{
+  display: none;
+}
+
+#infos{
+  min-width: 45%;
+}
+
+h1{
+  font-family: 'Crimson Pro', serif;
+  font-size: 40px;
+  margin-block: 5px 20px;
+}
+
+p{
+  font-family: 'Lato', sans-serif; 
+}
+
+.price{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.code{
+  font-weight: 300;
+  font-size: 15px;
+  text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+}
+
+main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+button{
+  cursor: pointer;
+  margin-top: 25px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid #271A45;
+}
